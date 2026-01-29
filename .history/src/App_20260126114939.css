@@ -1,0 +1,63 @@
+body {
+  background-color: #05000e;
+  font-family: Arial, sans-serif;
+}
+
+/* FULL-PAGE CENTERING */
+.home-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-left:250px;
+
+  display: grid;
+  place-items: center; /* PERFECT center (x + y) */
+}
+
+/* Inner content wrapper */
+.home-content {
+  text-align: center;
+}
+
+/* Heading */
+#heading {
+  max-width: 1000px;
+  color: #f8fafc;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.orange { background-color: #f97316; }
+.blue   { background-color: #3b82f6; }
+.student-registration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*student-registration-container styling*/
+.page-center {
+  display: flex;
+  height: 100vh; 
+  justify-content: center;
+  align-items: center;
+}

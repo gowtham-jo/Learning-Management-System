@@ -1,0 +1,127 @@
+body {
+  background-color: #05000e;
+  font-family: Arial, sans-serif;
+}
+
+/* FULL-PAGE CENTERING */
+.home-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-left:250px;
+
+  display: grid;
+  place-items: center; /* PERFECT center (x + y) */
+}
+
+/* Inner content wrapper */
+.home-content {
+  text-align: center;
+}
+
+/* Heading */
+#heading {
+  max-width: 1000px;
+  color: #f8fafc;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.orange { background-color: #f97316; }
+.blue   { background-color: #3b82f6; }
+.student-registration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*student-registration-container styling*/
+.page-center {
+  display: flex;
+  height: 100vh; 
+  justify-content: center;
+  align-items: center;
+  width: 100vw; 
+
+}
+.form-container {
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.cards {
+  display: flex;        /* horizontal layout */
+  gap: 30px;              /* space between cards */
+  justify-content: center; /* center horizontally */
+  align-items:flex-start
+        /* responsive (wrap on small screens) */
+}
+.card {
+  background: #0e0101;
+  border-radius: 10px;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+/* Video container */
+.video-background {
+  position: fixed;      /* stays in background */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: -1;          /* push behind content */
+}
+
+/* Actual video */
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* fill screen */
+}
+.home-container {
+  position: relative;
+  z-index: 5;
+  object-fit: cover; 
+}
+.footer p {
+  position: relative;
+  top: 200px;
+  left: 10px;
+}
+.logo{
+  align-items:top-left;
+  border: #3b82f6 solid 6px;
+  box-shadow: 10px 10px 20px rgba(215, 212, 215, 0.5);
+  border-radius: 50%;
+}
+
+
+
+
