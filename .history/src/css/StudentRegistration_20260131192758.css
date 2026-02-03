@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(13, 74, 179) rgb(240, 53, 93) rgb(26, 179, 100);
+}
+.container{
+    display: flex;
+   flex-direction: column;
+   margin:auto;
+   margin-top:200px;
+   background:#fff;
+   padding-bottom:30px;
+   
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width:100%;
+    margin-top:30px;
+}

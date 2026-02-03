@@ -63,7 +63,7 @@ const Homepage = () => {
             <div className="card-body">
               <h4>MERN Stack Web Development</h4>
               <p>Register in this MERN stack course to build web apps.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ const Homepage = () => {
             <div className="card-body">
               <h4>GEN AI Course</h4>
               <p>Learn Generative AI fundamentals and tools.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
           <div className="card" style={{ width: "19rem", border: "3px solid white", borderRadius: "10px" }}>

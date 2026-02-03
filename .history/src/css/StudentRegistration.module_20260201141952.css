@@ -1,0 +1,105 @@
+/* MAIN CONTAINER */
+.studentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 70px;
+  background: #fff;
+  padding-bottom: 30px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+/* HEADER */
+.studentHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.studentText {
+  color: rgb(62, 20, 200);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.studentUnderline {
+  width: 64px;
+  height: 6px;
+  background: rgb(62, 20, 200);
+  border-radius: 9px;
+}
+
+/* INPUTS */
+.studentInputs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#email{
+    padding-left:300px;
+}
+.studentInput {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  height: 50px;
+  background: #c2bfc8;
+  border-radius: 6px;
+}
+
+.studentInput img {
+  margin: 0 30px;
+}
+
+.studentInput input {
+  border-radius: 10px;
+}
+
+#email {
+  margin-left: 30px;
+}
+
+/* FORGOT PASSWORD */
+.studentForgotPassword {
+  padding-left: 100px;
+  margin-top: 27px;
+  color: rgb(220, 76, 15);
+  font-size: 18px;
+}
+
+.studentForgotPassword span {
+  color: purple;
+  cursor: pointer;
+}
+
+/* SUBMIT BUTTONS */
+.studentSubmitContainer {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.studentSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.studentGray {
+  background: #eaeaea;
+  color: #676767;
+}

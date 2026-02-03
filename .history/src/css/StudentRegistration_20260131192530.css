@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+   flex-direction: column;
+   margin:auto;
+   margin-top:200px;
+   background:#fff;
+   padding-bottom:30px;
+   background-color: rgb(13, 74, 179) rgb(240, 53, 93);
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width:100%;
+    margin-top:30px;
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    rgb(13, 74, 179),
+    rgb(180, 16, 128),
+    rgb(124, 4, 138)
+  );
+
+  font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+   flex-direction: column;
+   margin:auto;
+   margin-top:200px;
+   background:#fff;
+   padding-bottom:30px;
+   
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width:100%;
+    margin-top:30px;
+}

@@ -1,0 +1,124 @@
+
+
+/* MAIN CONTAINER */
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+
+/* VIDEO BACKGROUND */
+.video-background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.video-background video {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* LOGO → TOP LEFT */
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 90px;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgba(215,212,215,0.5);
+  z-index: 10;
+}
+
+/* BUTTONS → TOP RIGHT */
+.buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+/* ✅ HOMEPAGE BUTTONS */
+.homeBtn {
+  width: 130px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homeOrange {
+  background-color: #f97316;
+}
+
+.homeBlue {
+  background-color: #3b82f6;
+}
+
+/* HERO SECTION */
+.hero {
+  margin-top: 40px;
+  justify-content: center;
+  margin-left: 250px;
+  text-align: center;
+}
+
+/* HEADING */
+.heading h2 {
+  max-width: 1000px;
+  color: #f8fafc;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* CARDS SECTION */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 200px;
+}
+
+/* ✅ HOMEPAGE CARD */
+.homeCard {
+  background: #0e0101;
+  border-radius: 10px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+}
+
+.homeCard:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+/* COURSES SECTION */
+.courses-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* TITLE */
+.courses-title {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+.footer p {
+  margin: 120px 0 20px 20px;
+  color: #f8fafc;
+}
