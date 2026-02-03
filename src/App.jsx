@@ -1,25 +1,17 @@
-import React from "react";
-import "./App.css";
-import Homepage from "./Homepage.jsx";
 import { Routes, Route } from "react-router-dom";
-import StudentRegistration from "./StudentRegistration.jsx";
-import TeacherRegistration from "./TeacherRegistration.jsx";
 
+import Dashboard from "./client/Teacher/pages/Dashboard";
+import CreateLecture from "./client/Teacher/pages/CreateLecture";
+import Messages from "./client/Teacher/pages/Messages";
 
-import { useNavigate } from "react-router-dom";
-
-const App = () => {
+function App() {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route
-        path="/student-registration"
-        element={<StudentRegistration />}
-     
-      />
-      <Route path="/teacher-registration" element={<TeacherRegistration />} />
+      <Route path="/teacher/dashboard" element={<Dashboard />} />
+      <Route path="/teacher/lecture/create" element={<CreateLecture />} />
+      <Route path="/teacher/messages" element={<Messages />} />
     </Routes>
   );
-};
+}
 
 export default App;
